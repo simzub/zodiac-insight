@@ -1,0 +1,65 @@
+#root {
+  font-family: Menlo, Consolas, 'Droid Sans Mono', monospace;
+}
+
+@keyframes in-right {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.snackbar {
+  position: fixed;
+  z-index: 5500;
+  display: flex;
+  bottom: 16px;
+  right: 16px;
+  max-width: 560px;
+  min-width: 300px;
+}
+
+.snackbar-content {
+  display: flex;
+  gap: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 0.75rem;
+  color: #1c2025;
+  font-weight: 500;
+  text-align: start;
+  position: relative;
+  box-shadow: -8px 8px 0 0 hsl(215, 15%, 22%);
+}
+
+.snackbar-content .snackbar-message {
+  flex: 1 1 0%;
+  max-width: 100%;
+}
+
+.snackbar-content .snackbar-title {
+  margin: 0;
+  line-height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.snackbar-content .snackbar-description {
+  margin: 0;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #303740;
+}
+
+.snackbar-content .snackbar-close-icon {
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 2px;
+}
+
+.snackbar-content .snackbar-close-icon:hover {
+  background: hsl(215, 15%, 92%);
+}

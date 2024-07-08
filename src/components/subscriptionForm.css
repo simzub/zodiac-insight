@@ -1,0 +1,84 @@
+.card {
+  width: 340px;
+  background-color: #fff;
+  box-shadow: -8px 8px 0 0 hsl(215, 15%, 22%);
+  border-color: hsl(215, 15%, 12%);
+  overflow: hidden;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid hsl(215, 15%, 12%);
+}
+
+.input-group {
+  padding: 1rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid hsl(215, 15%, 12%);
+}
+
+.input-group label {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  color: hsl(215, 15%, 22%);
+  margin: 0.25rem 0px;
+}
+
+.input-group input {
+  background-color: hsl(215, 15%, 92%);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: hsl(215, 15%, 12%);
+  line-height: 1.5;
+  user-select: none;
+  padding: 8px 12px;
+  border: 1px solid hsl(215, 15%, 50%);
+  font-family: Menlo, Consolas, 'Droid Sans Mono', monospace;
+}
+
+.input-group input:hover,
+.input-group input:focus {
+  background-color: hsl(215, 15%, 89%);
+  border-color: hsl(215, 15%, 12%);
+  box-shadow: none;
+  outline: none;
+}
+
+.zodiac-group {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid hsl(215, 15%, 12%);
+}
+
+.zodiac-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.submit-button {
+  background-color: hsl(215, 15%, 92%);
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0.75rem;
+  font: inherit;
+  color: inherit;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  text-align: inherit;
+  line-height: inherit;
+}
+
+.submit-button:hover,
+.submit-button:focus,
+.submit-button:active {
+  background-color: hsl(215, 15%, 89%);
+  outline: none;
+}
