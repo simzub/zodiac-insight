@@ -15,7 +15,6 @@ export type ZodiacSign =
 
 export function getZodiacSign(month: number, day: number): ZodiacSign {
   const zodiacSigns: { name: ZodiacSign; start: number[]; end: number[] }[] = [
-    { name: 'Capricorn', start: [1, 1], end: [1, 19] },
     { name: 'Aquarius', start: [1, 20], end: [2, 18] },
     { name: 'Pisces', start: [2, 19], end: [3, 20] },
     { name: 'Aries', start: [3, 21], end: [4, 19] },
@@ -27,7 +26,7 @@ export function getZodiacSign(month: number, day: number): ZodiacSign {
     { name: 'Libra', start: [9, 23], end: [10, 22] },
     { name: 'Scorpio', start: [10, 23], end: [11, 21] },
     { name: 'Sagittarius', start: [11, 22], end: [12, 21] },
-    { name: 'Capricorn', start: [12, 22], end: [12, 31] },
+    { name: 'Capricorn', start: [12, 22], end: [1, 19] },
   ];
 
   for (const sign of zodiacSigns) {
@@ -35,8 +34,7 @@ export function getZodiacSign(month: number, day: number): ZodiacSign {
     const [endMonth, endDay] = sign.end;
     if (
       (month === startMonth && day >= startDay) ||
-      (month === endMonth && day <= endDay) ||
-      (month > startMonth && month < endMonth)
+      (month === endMonth && day <= endDay)
     ) {
       return sign.name;
     }

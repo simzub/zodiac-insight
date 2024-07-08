@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1720427325358" clover="3.2.0">
-  <project timestamp="1720427325358" name="All files">
-    <metrics statements="325" coveredstatements="12" conditionals="7" coveredconditionals="0" methods="7" coveredmethods="0" elements="339" coveredelements="12" complexity="0" loc="325" ncloc="325" packages="4" files="8" classes="8"/>
+<coverage generated="1720439703753" clover="3.2.0">
+  <project timestamp="1720439703753" name="All files">
+    <metrics statements="324" coveredstatements="12" conditionals="7" coveredconditionals="0" methods="7" coveredmethods="0" elements="338" coveredelements="12" complexity="0" loc="324" ncloc="324" packages="4" files="8" classes="8"/>
     <package name="src">
       <metrics statements="22" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="App.tsx" path="C:\Users\szubk\OneDrive\Stalinis kompiuteris\Software development\Projects\zodiac-insight\src\App.tsx">
@@ -258,7 +258,7 @@
       </file>
     </package>
     <package name="src.utils">
-      <metrics statements="79" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="78" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="zodiac.ts" path="C:\Users\szubk\OneDrive\Stalinis kompiuteris\Software development\Projects\zodiac-insight\src\utils\zodiac.ts">
         <metrics statements="46" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
@@ -309,7 +309,7 @@
         <line num="46" count="0" type="stmt"/>
       </file>
       <file name="zodiacIcons.ts" path="C:\Users\szubk\OneDrive\Stalinis kompiuteris\Software development\Projects\zodiac-insight\src\utils\zodiacIcons.ts">
-        <metrics statements="33" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="32" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -342,7 +342,6 @@
         <line num="30" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.validation">
