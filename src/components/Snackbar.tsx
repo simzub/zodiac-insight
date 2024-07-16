@@ -67,6 +67,7 @@ export default function BottomSnackbar({
               <IoClose
                 onClick={handleClose as React.MouseEventHandler<SVGElement>}
                 className="snackbar-close-icon"
+                role="close"
               />
             </div>
           )}

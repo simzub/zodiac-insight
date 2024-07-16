@@ -23,7 +23,7 @@ const FormInputGroup: React.FC<FormInputGroupProps> = ({
   <div className="input-group">
     <label htmlFor={id}>{label}:</label>
     <input id={id} type={type} {...register(id, { required })} />
-    {error && <span>{errorMessage || error.message}</span>}
+    {error && <span role="alert">{errorMessage || error.message}</span>}
   </div>
 );
 
